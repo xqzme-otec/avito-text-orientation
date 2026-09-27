@@ -1,0 +1,22 @@
+# data given by the organisers and downloaded external data (see scripts/download_data.py)
+test/
+data/
+models/pretrained/
+# caches / logs
+artifacts/*
+!artifacts/features/
+artifacts/features/*
+!artifacts/features/real_en.npz
+!artifacts/features/syn_ru.npz
+logs/
+models/*/last.pt
+models/w16_v2/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# IDE / local helpers
+.idea/
+main.py
+colab_train.ipynb
+scripts/make_colab_notebook.py
